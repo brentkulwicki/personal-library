@@ -1,31 +1,32 @@
 // Open the Modal
-function openModal() {
+let openModal = () => {
     document.getElementById('myModal').style.display = "block";
-  }
+};
   
   // Close the Modal
-  function closeModal() {
+let closeModal = () => {
     document.getElementById('myModal').style.display = "none";
-  }
+};
   
-  let slideIndex = 1;
-  showSlides(slideIndex);
+let slideIndex = 1;
+showSlides(slideIndex);
   
   // Next/previous controls
-  function plusSlides(n) {
+let plusSlides = (n) => {
     showSlides(slideIndex += n);
-  }
+};
   
   // Thumbnail image controls
-  function currentSlide(n) {
+let currentSlide = (n) => {
     showSlides(slideIndex = n);
-  }
+};
   
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("modal-demo");
-    var captionText = document.getElementById("modal-caption");
+let showSlides = (n) => {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = do
+    cument.getElementsByClassName("modal-demo");
+    let captionText = document.getElementById("modal-caption");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
