@@ -1,0 +1,1 @@
+This folder is for a quick lightbox/modal concept with thumbnail images expanding into full sized images. The CSS is setup to use very specific class names so that there won't be any overlap by linking this is a seperate stylesheet. 
